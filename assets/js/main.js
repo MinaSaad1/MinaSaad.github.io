@@ -4,6 +4,22 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.widget-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #7C5CFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-icon img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
 (function($) {
 
 	// Settings.
